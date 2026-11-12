@@ -1,0 +1,12 @@
+{
+  "_comment": "Placeholder de dev server para preview_start / la skill verify-after-changes. Edítalo para tu stack: runtimeExecutable, runtimeArgs y port.",
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    }
+  ]
+}

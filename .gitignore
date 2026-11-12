@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Dependencias / build (comunes; agnóstico al lenguaje)
+node_modules/
+dist/
+build/
+.next/
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Nota: .claude/, .mcp.json y docs/ SÍ se versionan (son parte de la plantilla).
